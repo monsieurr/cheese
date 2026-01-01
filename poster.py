@@ -116,7 +116,7 @@ def main():
         print("❌ Error: Missing Repo Details in .env or Env Vars")
         sys.exit(1)
         
-    image_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/ready_to_post/{filename}"
+    image_url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/ready/{filename}"
     
     # Verify Image Exists
     print(f"🔎 Checking for image: {filename}")
